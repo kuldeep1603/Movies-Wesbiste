@@ -1,0 +1,21 @@
+.swiper-slide {
+    background-color: var(--primary-color) !important;
+}
+
+.card {
+    background-color: var(--primary-color) !important;
+    border          : transparent;
+}
+
+.card img {
+    width     : 100%;
+    height    : 350px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .card img {
+        width : 100% !important;
+        height: 100% !important;
+    }
+}

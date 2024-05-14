@@ -1,0 +1,10 @@
+.search input {
+    border-top-left-radius   : 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.search #button-addon2 {
+    border-top-right-radius   : 100px;
+    border-bottom-right-radius: 100px;
+    padding: 0px 30px;
+}

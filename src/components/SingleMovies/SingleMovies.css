@@ -1,0 +1,45 @@
+.cast .card img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: cover;
+}
+
+.reviews .card img {
+    width     : 80px !important;
+    height    : 80px !important;
+    object-fit: cover;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff !important;
+}
+
+.movie-images .swiper-slide {
+    height: 100% !important;
+}
+
+.movie-images .swiper-button-prev,
+.movie-images .swiper-button-next {
+    background-color: var(--secondary-color);
+    border-radius   : 50%;
+    color           : #fff;
+    opacity         : 1;
+    font-size       : 16px;
+    width           : 40px;
+    height          : 40px;
+}
+
+.movie-images .swiper-button-prev:after,
+.movie-images .swiper-button-next:after {
+    font-size: 16px !important;
+}
+
+.movie-images .swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+    opacity: 1;
+}
+
+.movie-images .swiper-button-prev,
+.movie-images .swiper-button-next {
+    top: 40%;
+}

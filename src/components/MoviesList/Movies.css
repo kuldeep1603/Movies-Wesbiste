@@ -1,0 +1,8 @@
+.form-select option:hover {
+    background-color: red !important;
+}
+
+.form-select option {
+    /* background-color: var(--secondary-color); */
+    color           : #fff;
+}

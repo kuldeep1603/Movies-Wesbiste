@@ -1,0 +1,18 @@
+header .active {
+    border-bottom: 1px solid var(--secondary-color) !important;
+    color        : var(--secondary-color) !important;
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    top: -13px;
+    right: -9px;
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    border-radius: 50%;
+    font-weight: 600;
+    padding: 2px 8px;
+    font-size: 11px;
+}

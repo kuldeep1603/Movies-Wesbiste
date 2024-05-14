@@ -1,0 +1,51 @@
+.hero .swiper-slide {
+    height             : 85vh;
+    background-position: top;
+    border-radius      : 2px;
+}
+
+.swiper-slide .text {
+    margin-top: 150px;
+}
+
+@media screen and (max-width:500px) {
+    .hero .swiper-slide {
+        height: 70vh;
+    }
+
+    .swiper-slide .text {
+        margin-top: 100px;
+    }
+
+}
+
+
+
+.swiper-slide .text .Watch-Later {
+    outline: 2px solid var(--secondary-color);
+}
+
+.swiper-pagination-bullet-active {
+    opacity         : 1 !important;
+    background-color: var(--secondary-color) !important;
+    width           : 30px;
+    border-radius   : 10px;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--white-color) !important;
+    opacity         : 1 !important;
+}
+
+.overlay {
+    position        : relative;
+    width           : 100%;
+    height          : 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Adjust the opacity as needed */
+}
+
+.overlay .container-fluid {
+    position: relative;
+    z-index : 1;
+}
